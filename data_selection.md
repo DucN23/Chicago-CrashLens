@@ -31,3 +31,13 @@ Dataset 3: ([Chicago Traffic Crashes - People](https://data.cityofchicago.org/Tr
 Licensing and access: The data is publicly accessible for analysis via Chicago Data Portal API, the portal allows public viewing and CSV downloads, and the portal's dataset licensing information refers users to the City's Terms of Use.
 
 ## 3. Dataset Description
+
+**Dataset 1: Chicago Traffic Crashes - Crashes**
+  Dataset shows information about traffic crashes on city streets within the City of Chicago limits and under the jurisdiction of the CPD.
+
+**Dataset 2: Chicago Traffic Crashes - Vehicles**
+  Dataset shows information about vehicles involved in a traffic crash within the City of Chicago limits and under the jurisdiction of the CPD.
+
+**Dataset 3: Chicago Traffic Crashes - People**
+  Dataset shows information about people involved in a crash and if any injuries were sustained within the City of Chicago limits and under the jurisdiction of the CPD.
+

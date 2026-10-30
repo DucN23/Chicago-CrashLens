@@ -77,3 +77,29 @@ We intend to integrate data from all 3 datasets.
 9. **Prepare evaluation data.** Establish training or validation data and address class imbalance using methods that do not contaminate the test set.
 
 **Expected challenges**: The initial CSV exports may be substantial; the three tables have different row granularities, and missing values need careful treatment, and incorrect joins or outcome leakage could result in analyses and models being misleading. 
+
+## Limitations and Risks
+1. **Not all crashes are recorded:** Coverage is limited to crashes reported through the CPD so crashes handled by other agencies may be absent.
+**Possible effect on the project:** Counts may underrepresent all real-world crashes.
+
+2. **Uneven early historical coverage:** Citywide coverage does not begin until September 2017.
+**Possible effect on the project:** Earlier years may look artificially low or geographically uneven.
+
+3. **Estimated conditions and reporting differences:** Weather/road conditions and posted speed limits may be imperfect.
+**Possible effect on the project:** Recorded predictors can contain measurement error or bias.
+
+4. **Missing or inconsistent data:** Some records may lack coordinates or important categories.
+**Possible effect on the project:** Location analyses may exclude crashes and become less representative.
+
+5. **Outcome timing and amendments:** Injury information may be corrected after initial reporting.
+**Possible effect on the project:** Repeated exports may produce different totals.
+
+6. **Class imbalance and leakage:** The injury class may be less common.
+**Possible effect on the project:** Model evaluation may be inflated or misleading.
+
+7. **Data access or schema changes:** Public data and API behavior can change.
+**Possible effect on the project:** Re-running the pipeline may give different results.
+
+8. **Computational constraints:** Free cloud resources may impose runtime, memory or usage limits.
+**Possible effect on the project:** Full-data joins or training may be slow or restricted.
+

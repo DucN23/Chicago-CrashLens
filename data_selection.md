@@ -33,13 +33,34 @@ Licensing and access: The data is publicly accessible for analysis via Chicago D
 ## 3. Dataset Description
 
 **Dataset 1: Chicago Traffic Crashes - Crashes**
-  Dataset shows information about traffic crashes on city streets within the City of Chicago limits and under the jurisdiction of the CPD.
+
+- Information about traffic crashes on city streets within the City of Chicago limits and under the jurisdiction of the CPD.
+
+- Records: 1,108,361
+
+- Relevant Columns: Crash Date, Speed Limit, Weather and Lighting Conditions, Crash Type
+
 
 **Dataset 2: Chicago Traffic Crashes - Vehicles**
-  Dataset shows information about vehicles involved in a traffic crash within the City of Chicago limits and under the jurisdiction of the CPD.
+
+- Information about vehicles involved in a traffic crash within the City of Chicago limits and under the jurisdiction of the CPD.
+
+- Records: 2,259,617
+
+- Relevant Columns: Crash Date, Number of Passengers, Vehicle Make, Vehicle Model, License Plate State
+
 
 **Dataset 3: Chicago Traffic Crashes - People**
-  Dataset shows information about people involved in a crash and if any injuries were sustained within the City of Chicago limits and under the jurisdiction of the CPD.
+
+- Information about people involved in a crash and if any injuries were sustained within the City of Chicago limits and under the jurisdiction of the CPD.
+
+- Records: 2,432,251
+
+- Relevant Columns: Crash Date, City, Zipcode, Sex, Age, Driver’s License State, Airbag Deployed, Ejection, Injury Classification
+
+
+We intend to integrate data from all 3 datasets.
+
 
 ## 4. Analysis of the 5 Vs
 

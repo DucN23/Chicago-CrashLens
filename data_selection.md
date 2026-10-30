@@ -28,4 +28,4 @@ Dataset 2: ([Chicago Traffic Crashes - Vehicles](https://data.cityofchicago.org/
 
 Dataset 3: ([Chicago Traffic Crashes - People](https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d/about_data))
 
-Licensing and access: The data is publicly accessible for analysis via Chicago Data Portal API, and the portal's dataset licensing information refers users to the City's Terms of Use.
+Licensing and access: The data is publicly accessible for analysis via Chicago Data Portal API, the portal allows public viewing and CSV downloads, and the portal's dataset licensing information refers users to the City's Terms of Use.

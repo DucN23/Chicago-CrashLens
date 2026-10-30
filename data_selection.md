@@ -64,6 +64,34 @@ We intend to integrate data from all 3 datasets.
 
 ## 4. Analysis of the 5 Vs
 
+**Volume**
+
+Dataset 1: 1,108,361 records
+
+Dataset 2: 2,259,617 records
+
+Dataset 3: 2,432,251 records
+
+
+The datasets contain millions of records, which make data integration and filtering more demanding than a smaller dataset. Combining matching data across all datasets will require matching crash identifiers and accounting for factors such as crashes involving multiple vehicles carrying multiple people. We intend to use the full datasets initially, evaluating file sizes during data preparation and then cleaning and analyzing the records.
+
+
+**Velocity**
+
+Our project uses historical traffic crash records provided by the City of Chicago through the City of Chicago Data Portal. This information is not updated in real-time, and will instead serve as a historical dataset to be analyzed to identify historical patterns in vehicle crashes. Batch-processing will be sufficient for this project.
+
+
+**Variety**
+
+Our project utilizes three datasets sourced from the City of Chicago Data Portal. These datasets primarily contain tabular data such as CSV files. The main issue we expect to encounter when integrating these datasets is excessive information across multiple datasets. The crashes datasets identifies one crash at a time, while the vehicles and people datasets may contain multiple related records. We will standardize columns and handle missing values before continuing with analysis of the datasets.
+
+**Veracity**
+
+The datasets utilized in this project are sourced through the City of Chicago Data Portal. These datasets contain records on crashes under the jurisdiction of both the City of Chicago and the Chicago Police Department. Because these datasets are sourced through an official city portal, they provide a consistent source for data analysis. Individual records may contain missing information such as weather conditions and number of passengers in a given vehicle crash, which may interfere with combining datasets with joint information. We will account for columns with excessive missing data and determine which incomplete columns should be excluded.
+
+**Value**
+
+This project will analyze traffic crash data from multiple datasets detailing varying levels of information regarding recorded traffic crashes. By cleaning and combining crash-level, vehicle-level, and person-level information, we hope to uncover which combinations of environmental, geographic, and roadway factors are associated with injury-related crashes. Interpreting these findings will provide a clearer picture of injury-related crashes and improve roadway safety.
 
 ## 5. Data Preparation
 1. **Export the three CSV files;** record date, published metadata, exact row counts, file sizes and sources.

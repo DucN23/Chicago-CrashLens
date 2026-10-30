@@ -41,3 +41,18 @@ Licensing and access: The data is publicly accessible for analysis via Chicago D
 **Dataset 3: Chicago Traffic Crashes - People**
   Dataset shows information about people involved in a crash and if any injuries were sustained within the City of Chicago limits and under the jurisdiction of the CPD.
 
+## 4. Analysis of the 5 Vs
+
+
+## 5. Data Preparation
+1. **Export the three CSV files;** record date, published metadata, exact row counts, file sizes and sources.
+2. **Inspect schemas and quality.** Confirm types, missing values, identifier uniqueness and categories.
+3. **Clean and standardize.** Standardize missing or unknown categorial values; check numeral ranges.
+4. **Choose the analysis window.** Start with records from 2018, then set a fixed cutoff and document any exclusion.
+5. **Define the target.** At the crash level, set injury_crash = 1 when the total injury is more than zero, otherwise 0.
+6. **Build joins.** Aggregate Vehicles and People records by crash_record_id before combining them in the Crashes table.
+7. **Create predictors.** Derive hour, day, month, location grouping and weather/road categories. 
+8. **Write analysis-ready data.** Store a reproducible table, potentially partitioned by crash year, with a brief data dictionary.
+9. **Prepare evaluation data.** Establish training or validation data and address class imbalance using methods that do not contaminate the test set.
+
+**Expected challenges**: The initial CSV exports may be substantial; the three tables have different row granularities, and missing values need careful treatment, and incorrect joins or outcome leakage could result in analyses and models being misleading. 

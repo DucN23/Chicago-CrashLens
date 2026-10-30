@@ -106,7 +106,7 @@ This project will analyze traffic crash data from multiple datasets detailing va
 
 **Expected challenges**: The initial CSV exports may be substantial; the three tables have different row granularities, and missing values need careful treatment, and incorrect joins or outcome leakage could result in analyses and models being misleading. 
 
-## Limitations and Risks
+## 6. Limitations and Risks
 1. **Not all crashes are recorded:** Coverage is limited to crashes reported through the CPD so crashes handled by other agencies may be absent.
 **Possible effect on the project:** Counts may underrepresent all real-world crashes.
 

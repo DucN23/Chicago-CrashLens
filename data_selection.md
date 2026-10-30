@@ -11,5 +11,5 @@ We aim to identify patterns associated with injury-related traffic crashes in Ch
 The problem matters because understanding where and what conditions crashes area more likely to involve injuries can help Chicago residents get a deeper insight to crash patterns and valuable support for transportation safety planning.
 
 Our core question is:
-> Which combinations of temporal, environmental, roadway, and geographic factors are associated with injuries in Chicago traffic crashes?
+**Which combinations of temporal, environmental, roadway, and geographic factors are associated with injuries in Chicago traffic crashes?**
 
